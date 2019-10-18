@@ -51,7 +51,6 @@ public class Main
 		JSONObject output = new JSONObject();
 		
 		for (int i = 0; i < personnel.length(); ++i) {
-
 			final JSONObject person = personnel.getJSONObject(i);
 			final String name = person.getString("name");
 			final int roleID = person.getInt("roleID");
